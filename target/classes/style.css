@@ -1,0 +1,68 @@
+/* ---------- Sunny theme: soft sky / mint / lavender ---------- */
+.root {
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    -fx-font-size: 14px;
+    -fx-base: #eef6f5;
+    -fx-background-color: linear-gradient(to bottom, #bfe3f7 0%, #dff1fa 38%, #fff3d6 78%, #ffe7b8 100%);
+}
+
+/* text */
+.app-title   { -fx-font-size: 32px; -fx-font-weight: bold; -fx-text-fill: #3d8a82; }
+.heading     { -fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #2f5559; }
+.heading2    { -fx-font-size: 16px; -fx-font-weight: bold; -fx-text-fill: #3a6b70; }
+.muted       { -fx-text-fill: #6f878b; }
+.error       { -fx-text-fill: #c0504a; }
+.success     { -fx-text-fill: #2e8b57; }
+.question    { -fx-font-weight: bold; }
+.stat-value  { -fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #3d8a82; }
+.score-number{ -fx-font-size: 38px; -fx-font-weight: bold; -fx-text-fill: #2f5559; }
+.badge-emoji { -fx-font-size: 28px; }
+
+/* cards */
+.card {
+    -fx-background-color: rgba(255,255,255,0.80);
+    -fx-background-radius: 18;
+    -fx-padding: 18;
+    -fx-effect: dropshadow(gaussian, rgba(70,110,120,0.14), 18, 0, 0, 3);
+}
+.alert-card       { -fx-background-color: rgba(253,236,234,0.92); }
+.badge-unlocked   { -fx-background-color: rgba(255,247,222,0.92); -fx-border-color: #e8cf82; -fx-border-radius: 18; }
+.badge-locked     { -fx-opacity: 0.78; }
+
+/* sidebars */
+.admin-side  { -fx-background-color: linear-gradient(to bottom, #f0a64a, #d9822b); }
+.sidebar     { -fx-background-color: linear-gradient(to bottom, #5a9a9a, #44797f); }
+.brand       { -fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: white; }
+.hi          { -fx-text-fill: #e3f1ef; }
+.nav         { -fx-background-color: transparent; -fx-text-fill: #f0f9f7; -fx-padding: 9 12; -fx-cursor: hand; -fx-background-radius: 10; }
+.nav:hover   { -fx-background-color: rgba(255,255,255,0.16); }
+.nav.active  { -fx-background-color: rgba(255,255,255,0.28); -fx-text-fill: white; -fx-font-weight: bold; }
+
+/* scroll areas transparent so the soft background shows through */
+.page-scroll, .page-scroll > .viewport { -fx-background-color: transparent; }
+.chat-scroll { -fx-background-color: rgba(255,255,255,0.55); -fx-background-radius: 14; }
+.chat-scroll > .viewport { -fx-background-color: transparent; }
+
+/* buttons & inputs */
+.button.primary       { -fx-background-color: #4a9d94; -fx-text-fill: white; -fx-background-radius: 10; -fx-padding: 8 18; -fx-cursor: hand; }
+.button.primary:hover { -fx-background-color: #3d8a82; }
+.button.danger        { -fx-text-fill: #c0504a; }
+.button.chip          { -fx-background-color: rgba(255,255,255,0.85); -fx-background-radius: 16; -fx-padding: 5 12; -fx-text-fill: #3a6b70; }
+.button.chip:hover    { -fx-background-color: #d8eeea; }
+.mood-btn             { -fx-background-radius: 12; -fx-padding: 10 14; }
+.mood-btn:selected    { -fx-background-color: #4a9d94; -fx-text-fill: white; }
+.text-field, .text-area, .password-field { -fx-background-radius: 10; }
+
+/* calendar */
+.day-cell        { -fx-background-radius: 12; -fx-background-color: rgba(255,255,255,0.7); -fx-text-fill: #2f5559; -fx-cursor: hand; }
+.day-cell:hover  { -fx-opacity: 0.85; }
+.day-cell.today  { -fx-border-color: #3d8a82; -fx-border-width: 2; -fx-border-radius: 12; }
+.day-cell:disabled { -fx-opacity: 0.35; }
+
+/* chat */
+.bubble-user   { -fx-background-color: #4a9d94; -fx-text-fill: white; -fx-background-radius: 16; -fx-padding: 9 14; }
+.bubble-bot    { -fx-background-color: white; -fx-text-fill: #2f5559; -fx-background-radius: 16; -fx-padding: 9 14; }
+.bubble-crisis { -fx-background-color: #fdecea; -fx-text-fill: #7b241c; -fx-background-radius: 16; -fx-padding: 12 16; -fx-border-color: #e6a8a2; -fx-border-radius: 16; }
+
+/* breathing */
+.breath-circle { -fx-fill: #8fd3ca; -fx-opacity: 0.85; }
