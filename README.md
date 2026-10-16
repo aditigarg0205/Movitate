@@ -3,19 +3,18 @@
 Desktop mental-wellness app:
 
 **Features**
-- Dashboard with **Daily Wellness Score** (0-100 ring), **Wellness Streak**, 7-day average, mood chart, daily tip
+- Dashboard with **Daily Wellness Score** (0-100 ring), **Wellness Streak**, 7-day average, mood chart, daily tip and personal journal.
 - **Mood check-in** (1-5 + note) and history
 - **Mood calendar** – month grid coloured by mood, click a day for details
 - **Mood journey** – 7/30/90-day chart, trend, best/toughest day, most common mood
-- **Journal** – create, edit, delete, search
-- **AI companion** – built-in, offline, rule-based chat (no internet, nothing saved). Any sign of
-  self-harm switches it to a fixed safety message with helplines
+- **Journal** – create, edit, delete, search and private 
+- **AI companion** – built-in, offline, rule-based chat. Any sign of self-harm switches it to a fixed safety message with helplines
 - **My growth** – levels, this week's small wins, achievement badges
 - **Breathe** – animated 4-4-6 breathing guide
 - **Self-check** – PHQ-2 / GAD-2 screeners (not a diagnosis)
 - **Get help** – helplines (India) and coping ideas
 
-**Admin portal** (separate "Admin portal" tab on the login screen, sunny orange sidebar)
+**Admin portal** (separate "Admin portal" tab on the login screen, sidebar)
 - First run: create the admin account (only possible while no admin exists)
 - Overview: stats, **mood suns** (happy / calm & meditative / sad, last 30 days) and mood chart
 - Users: disable/enable, reset password, delete user + all their data
