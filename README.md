@@ -64,4 +64,25 @@ Existing data from version 1 keeps working. Journal text is stored on your compu
 ## Important
 Self-help tool, not medical advice. The companion is a simple program, not a therapist.
 Please verify the helpline numbers in `ResourcesView.java` and `CompanionService.java` for your region.
+
 # Movitate
+Motivation Behind MindEase – Mental Wellness Portal
+MindEase is designed with one simple belief: Mental health matters just as much as physical health.
+
+In today's fast-paced world, students and young adults often experience academic pressure, stress, anxiety, loneliness, and emotional exhaustion. However, many people hesitate to discuss their feelings or seek professional help because of social stigma, lack of awareness, or limited access to mental wellness resources.
+
+The motivation behind developing MindEase is to create a safe, simple, and user-friendly digital platform where individuals can understand their emotions, track their mental well-being, and develop healthier daily habits.
+
+The application encourages users to take small steps towards better mental health through daily mood check-ins, personal journaling, breathing exercises, self-assessment tools, and an offline AI companion. Features like wellness streaks, achievements, and mood journey insights motivate users to maintain consistency and recognize their emotional progress.
+
+Another important motivation is privacy and accessibility. MindEase works offline, stores personal data locally, and ensures that administrators cannot access private journal entries or mood notes.
+Key Motivational Objectives
+1. Mental Health Awareness: Encourage people to understand and prioritize their emotional well-being.
+2. Self-Reflection: Help users identify emotional patterns through mood tracking and journaling.
+3. Stress Management: Provide breathing exercises and simple coping techniques.
+4. Daily Motivation: Encourage consistency through wellness scores, streaks, levels, and achievements.
+5. Accessibility: Provide essential wellness features without requiring an internet connection.
+6. Privacy: Maintain confidentiality of personal emotional information.
+7. Early Awareness: Help users recognize possible symptoms of anxiety and depression through basic screening tools, without claiming to diagnose them.
+Project Vision
+"Your mind deserves care, attention, and kindness. MindEase aims to make mental wellness a part of everyday life, helping individuals understand themselves better, one day and one small step at a time."
